@@ -7,21 +7,32 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #f4f4f4;
+      background-color: #f9f9f9;
       color: #333;
       margin: 0;
       padding: 20px;
       box-sizing: border-box;
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
 
     h1 {
       text-align: center;
-      color: #007bff;
+      color: #3498db;
     }
 
     h3 {
       margin-top: 10px;
-      color: #007bff;
+      color: #3498db;
     }
 
     pre {
@@ -80,6 +91,12 @@
     - 4x Path to the Peak
   </pre>
 
+  <h3 id="trainer-stadium">Trainer - Supporters:</h3>
+  <pre>
+    - 4x Iono
+  </pre>
+
+  
   <h3 id="energy">Energy:</h3>
   <pre>
     - 4x Jet Energy
